@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header and Navbar</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-stone-100">
+
+    <!-- Header -->
+    <header class="bg-emerald-950 text-stone-100 px-8 py-5">
+
+        <div class="flex justify-between items-center">
+
+            <!-- Logo -->
+            <h1 class="text-2xl font-bold tracking-wide">
+                MyStore
+            </h1>
+
+            <!-- Navigation -->
+            <nav class="flex items-center gap-7">
+
+                <a href="#"
+                   class="py-2 border-b-2 border-transparent hover:border-amber-300 hover:text-amber-300 transition">
+                    Home
+                </a>
+
+                <a href="#"
+                   class="py-2 border-b-2 border-transparent hover:border-amber-300 hover:text-amber-300 transition">
+                    About
+                </a>
+
+                <!-- Products Dropdown -->
+                <div class="relative group">
+
+                    <button
+                        class="flex items-center gap-2 py-2 border-b-2 border-transparent group-hover:border-amber-300 group-hover:text-amber-300 transition">
+                        Products
+                        <span class="text-xs">▼</span>
+                    </button>
+
+                    <!-- Dropdown Menu -->
+                    <div class="hidden group-hover:block group-focus-within:block absolute left-0 top-full pt-2 w-48 z-10">
+
+                        <div class="bg-white text-stone-700 rounded-md shadow-lg border border-stone-200 py-2">
+
+                            <a href="#" class="block px-4 py-2 hover:bg-emerald-50 hover:text-emerald-900">
+                                Laptops
+                            </a>
+
+                            <a href="#" class="block px-4 py-2 hover:bg-emerald-50 hover:text-emerald-900">
+                                Mobiles
+                            </a>
+
+                            <a href="#" class="block px-4 py-2 hover:bg-emerald-50 hover:text-emerald-900">
+                                Tablets
+                            </a>
+
+                            <a href="#" class="block px-4 py-2 hover:bg-emerald-50 hover:text-emerald-900">
+                                Headphones
+                            </a>
+
+                            <a href="#" class="block px-4 py-2 hover:bg-emerald-50 hover:text-emerald-900">
+                                Earbuds
+                            </a>
+
+                            <a href="#" class="block px-4 py-2 hover:bg-emerald-50 hover:text-emerald-900">
+                                Smartwatches
+                            </a>
+                            
+                            <a href="#" class="block px-4 py-2 hover:bg-emerald-50 hover:text-emerald-900">
+                                Accessories
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="#"
+                   class="py-2 border-b-2 border-transparent hover:border-amber-300 hover:text-amber-300 transition">
+                    Offers
+                </a>
+
+                <a href="#"
+                   class="py-2 border-b-2 border-transparent hover:border-amber-300 hover:text-amber-300 transition">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+</body>
+</html>
